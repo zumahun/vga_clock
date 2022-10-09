@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Oct  9 09:01:56 2022
+# Process ID: 78340
+# Current directory: /home/zumahun/fpga_projects/vga_clock
+# Command line: vivado
+# Log file: /home/zumahun/fpga_projects/vga_clock/vivado.log
+# Journal file: /home/zumahun/fpga_projects/vga_clock/vivado.jou
+# Running On: zumax, OS: Linux, CPU Frequency: 1996.799 MHz, CPU Physical cores: 1, Host memory: 8336 MB
+#-----------------------------------------------------------
+start_gui
+xhub::refresh_catalog [xhub::get_xstores xilinx_board_store]
+set_param board.repoPaths {/home/zumahun/.Xilinx/Vivado/2022.1/xhub/board_store/xilinx_board_store}
+xhub::install [xhub::get_xitems digilentinc.com:xilinx_board_store:basys3:1.2]
+xhub::install [xhub::get_xitems digilentinc.com:xilinx_board_store:basys3:1.1]
+create_project vga_clock /home/zumahun/fpga_projects/vga_clock/vga_clock -part xc7a35tcpg236-1
+set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
+add_files -norecurse {/home/zumahun/fpga_projects/vga_clock/srcs/clock_digit_rom.v /home/zumahun/fpga_projects/vga_clock/srcs/vga_controller.v /home/zumahun/fpga_projects/vga_clock/srcs/top.v /home/zumahun/fpga_projects/vga_clock/srcs/pixel_clk_gen.v /home/zumahun/fpga_projects/vga_clock/srcs/new_binary_clock.v}
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse /home/zumahun/fpga_projects/vga_clock/xdc/vga_clock.xdc
+update_compile_order -fileset sources_1

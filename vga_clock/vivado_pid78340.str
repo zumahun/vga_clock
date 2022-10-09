@@ -1,0 +1,223 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:47:01 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 78340
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Oct 09 09:02:28 UTC 2022
+Time zone: 	Coordinated Universal Time (Etc/UTC)
+
+OS: Ubuntu
+OS Version: 5.15.0-43-generic
+OS Architecture: amd64
+Available processors (cores): 1
+
+Display: localhost:10.0
+Screen size: 3000x1896
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9
+Java executable: 	/tools/Xilinx/Vivado/2022.1/tps/lnx64/jre11.0.11_9/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m, -Xrs]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	zumahun
+User home directory: /home/zumahun
+User working directory: /home/zumahun/fpga_projects/vga_clock
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2022.1
+RDI_DATADIR: /tools/Xilinx/Vivado/2022.1/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2022.1/bin
+
+Vivado preferences file: /home/zumahun/.Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: /home/zumahun/.Xilinx/Vivado/2022.1/
+Vivado layouts directory: /home/zumahun/.Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	/tools/Xilinx/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	/home/zumahun/fpga_projects/vga_clock/vivado.log
+Vivado journal file: 	/home/zumahun/fpga_projects/vga_clock/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-78340-zumax
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2022.1
+XILINX_SDK: /tools/Xilinx/Vitis/2022.1
+XILINX_VITIS: /tools/Xilinx/Vitis/2022.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2022.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2022.1
+
+
+GUI allocated memory:	250 MB
+GUI max memory:		3,066 MB
+Engine allocated memory: 1,744 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  1414 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,749 MB. GUI used memory: 52 MB. Current time: 10/9/22, 9:02:29 AM UTC
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // y
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+selectButton("NEXT", "Next >"); // JButton
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "vga_clock", true); // aa
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("BACK", "< Back"); // JButton
+selectCheckBox(PAResourceItoN.NewProjectWizard_DO_NOT_SPECIFY_SOURCES_AT_THIS_TIME, "Do not specify sources at this time", true); // g: TRUE
+// [GUI Memory]: 90 MB (+91393kb) [00:00:44]
+// [Engine Memory]: 1,760 MB (+1693964kb) [00:00:44]
+// [GUI Memory]: 96 MB (+2050kb) [00:00:45]
+selectButton("NEXT", "Next >"); // JButton
+// WARNING: HEventQueue.dispatchEvent() is taking  1125 ms.
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Boards", 1); // i
+// [GUI Memory]: 218 MB (+122809kb) [00:00:50]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,825 MB. GUI used memory: 246 MB. Current time: 10/9/22, 9:02:55 AM UTC
+// [GUI Memory]: 238 MB (+9382kb) [00:00:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,943 MB. GUI used memory: 350 MB. Current time: 10/9/22, 9:03:14 AM UTC
+// [GUI Memory]: 332 MB (+86727kb) [00:01:10]
+// [Engine Memory]: 1,943 MB (+99374kb) [00:01:10]
+// Elapsed time: 48 seconds
+setText("PAResourceAtoD.BoardChooser_BOARD_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField
+selectButton(PAResourceAtoD.BoardChooser_REFRESH, "Refresh"); // a
+// TclEventType: LOAD_FEATURE
+// TclEventType: XHUB_XSTORE_DIR_CHANGE
+// [GUI Memory]: 354 MB (+5261kb) [00:01:39]
+// TclEventType: XHUB_XSTORE_REFRESH
+// Tcl Message: xhub::refresh_catalog [xhub::get_xstores xilinx_board_store] 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,932 MB. GUI used memory: 57 MB. Current time: 10/9/22, 9:04:14 AM UTC
+// WARNING: HEventQueue.dispatchEvent() is taking  10073 ms.
+// TclEventType: XHUB_XSTORE_REFRESH
+// Tcl Message: xhub::refresh_catalog: Time (s): cpu = 00:00:27 ; elapsed = 00:01:19 . Memory (MB): peak = 7407.246 ; gain = 0.000 ; free physical = 2782 ; free virtual = 10688 
+// Elapsed time: 80 seconds
+dismissDialog("Refresh Catalog"); // bA
+// Elapsed time: 11 seconds
+setText("PAResourceAtoD.BoardChooser_BOARD_TABLE_SEARCH_FIELD", "Basys3"); // OverlayTextField
+selectTreeTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "Basys3 ; Basys3 ; Basys3 ; digilentinc.com ; 1.2 ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1, "Basys3", 0, false); // ah
+selectTreeTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "Basys3 ; Basys3 ; Basys3 ; digilentinc.com ; 1.2 ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1, "Basys3", 0, false); // ah
+selectTreeTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "Basys3 ; Basys3 ; Basys3 ; digilentinc.com ; 1.2 ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1, "Basys3", 1, false, true, false, false, false, false); // ah - Shift Key
+selectTreeTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "Basys3 ; Basys3 ; Basys3 ; digilentinc.com ; 1.2 ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1, "Basys3", 1, false, true, false, false, false, false); // ah - Shift Key
+openHTML ("/tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/VCU129_board.jpeg"); // ah
+openHTML ("/tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/VCU129_board.jpeg"); // ah
+// HOptionPane Error: 'Default HTML viewers not found in path (Open HTML)'
+// HOptionPane Error: 'Default HTML viewers not found in path (Open HTML)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: XHUB_XITEM_INSTALL
+// Tcl Message: set_param board.repoPaths {/home/zumahun/.Xilinx/Vivado/2022.1/xhub/board_store/xilinx_board_store} 
+// Tcl Message: xhub::install [xhub::get_xitems digilentinc.com:xilinx_board_store:basys3:1.2] 
+// Tcl Message: INFO: [xhubtcl 76-32] Installing object 'digilentinc.com:xilinx_board_store:basys3:1.2' ... INFO: [Common 17-1570] Installing object digilentinc.com:xilinx_board_store:basys3:1.2 from remote host https://github.com/Xilinx/XilinxBoardStore.git 
+// TclEventType: BOARD_CATALOG_MODIFIED
+// Tcl Message: INFO: [Common 17-1573] Object digilentinc.com:xilinx_board_store:basys3:1.2 has been installed successfully. 
+// Tcl Message: INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// TclEventType: BOARD_CATALOG_MODIFIED
+// TclEventType: XHUB_XITEM_INSTALL
+dismissDialog("Install"); // bA
+// TclEventType: BOARD_CATALOG_MODIFIED
+// TclEventType: XHUB_XITEM_INSTALL
+// Tcl Message: xhub::install [xhub::get_xitems digilentinc.com:xilinx_board_store:basys3:1.1] 
+// Tcl Message: INFO: [xhubtcl 76-32] Installing object 'digilentinc.com:xilinx_board_store:basys3:1.1' ... INFO: [Common 17-1570] Installing object digilentinc.com:xilinx_board_store:basys3:1.1 from remote host https://github.com/Xilinx/XilinxBoardStore.git INFO: [Common 17-1573] Object digilentinc.com:xilinx_board_store:basys3:1.1 has been installed successfully. 
+dismissDialog("Install"); // bA
+selectTreeTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "Basys3 ; Basys3 ; Basys3 ; digilentinc.com ; 1.2 ; xc7a35tcpg236-1 ; 236 ; C.0 ; 106 ; 20800 ; 41600 ; 50 ; 0 ; 90 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 0, "Basys3", 0, false); // ah
+openHTML ("https://digilent.com/reference/programmable-logic/basys-3/start");ah
+// HOptionPane Error: 'Default HTML viewers not found in path (Open HTML)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectTreeTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "Basys3 ; Basys3 ; Basys3 ; digilentinc.com ; 1.2 ; xc7a35tcpg236-1 ; 236 ; C.0 ; 106 ; 20800 ; 41600 ; 50 ; 0 ; 90 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 0, "Basys3", 1, false); // ah
+openHTML ("/tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/vcu128_board.jpeg"); // ah
+// HOptionPane Error: 'Default HTML viewers not found in path (Open HTML)'
+selectButton("OptionPane.button", "OK"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project vga_clock /home/zumahun/fpga_projects/vga_clock/vga_clock -part xc7a35tcpg236-1 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  5899 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,945 MB. GUI used memory: 65 MB. Current time: 10/9/22, 9:06:24 AM UTC
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 7455.246 ; gain = 48.000 ; free physical = 2733 ; free virtual = 10645 
+// TclEventType: BOARD_MODIFIED
+// Tcl Message: set_property board_part digilentinc.com:basys3:part0:1.2 [current_project] 
+// Elapsed time: 30 seconds
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 238 seconds
+dismissDialog("Create Project"); // bA
+dismissDialog("New Project"); // f
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // n
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+String[] filenames31467 = {"/home/zumahun/fpga_projects/vga_clock/srcs/clock_digit_rom.v", "/home/zumahun/fpga_projects/vga_clock/srcs/new_binary_clock.v", "/home/zumahun/fpga_projects/vga_clock/srcs/pixel_clk_gen.v", "/home/zumahun/fpga_projects/vga_clock/srcs/top.v", "/home/zumahun/fpga_projects/vga_clock/srcs/vga_controller.v"};
+setFileChooser(filenames31467);
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 15 seconds
+dismissDialog("Add Sources"); // c
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {/home/zumahun/fpga_projects/vga_clock/srcs/clock_digit_rom.v /home/zumahun/fpga_projects/vga_clock/srcs/vga_controller.v /home/zumahun/fpga_projects/vga_clock/srcs/top.v /home/zumahun/fpga_projects/vga_clock/srcs/pixel_clk_gen.v /home/zumahun/fpga_projects/vga_clock/srcs/new_binary_clock.v} 
+dismissDialog("Add Sources"); // bA
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // n
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a
+// HMemoryUtils.trashcanNow. Engine heap size: 1,990 MB. GUI used memory: 77 MB. Current time: 10/9/22, 9:07:12 AM UTC
+setFileChooser("/home/zumahun/fpga_projects/vga_clock/xdc/vga_clock.xdc");
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 15 seconds
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Add Sources"); // c
+// Tcl Message: add_files -fileset constrs_1 -norecurse /home/zumahun/fpga_projects/vga_clock/xdc/vga_clock.xdc 
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "4"); // g
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "4"); // g
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL

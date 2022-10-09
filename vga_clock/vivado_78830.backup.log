@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Oct  9 09:10:15 2022
+# Process ID: 78830
+# Current directory: /home/zumahun/fpga_projects/vga_clock
+# Command line: vivado
+# Log file: /home/zumahun/fpga_projects/vga_clock/vivado.log
+# Journal file: /home/zumahun/fpga_projects/vga_clock/vivado.jou
+# Running On: zumax, OS: Linux, CPU Frequency: 1996.799 MHz, CPU Physical cores: 1, Host memory: 8336 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /home/zumahun/fpga_projects/vga_clock/vga_clock/vga_clock.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/zumahun/fpga_projects/vga_clock/vga_clock/vga_clock.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 7466.285 ; gain = 91.133 ; free physical = 2745 ; free virtual = 10895
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream
+[Sun Oct  9 09:14:31 2022] Launched synth_1...
+Run output will be captured here: /home/zumahun/fpga_projects/vga_clock/vga_clock/vga_clock.runs/synth_1/runme.log
+[Sun Oct  9 09:14:33 2022] Launched impl_1...
+Run output will be captured here: /home/zumahun/fpga_projects/vga_clock/vga_clock/vga_clock.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Sun Oct  9 09:17:15 2022] Launched synth_1...
+Run output will be captured here: /home/zumahun/fpga_projects/vga_clock/vga_clock/vga_clock.runs/synth_1/runme.log
+[Sun Oct  9 09:17:15 2022] Launched impl_1...
+Run output will be captured here: /home/zumahun/fpga_projects/vga_clock/vga_clock/vga_clock.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Sun Oct  9 09:20:03 2022] Launched synth_1...
+Run output will be captured here: /home/zumahun/fpga_projects/vga_clock/vga_clock/vga_clock.runs/synth_1/runme.log
+[Sun Oct  9 09:20:04 2022] Launched impl_1...
+Run output will be captured here: /home/zumahun/fpga_projects/vga_clock/vga_clock/vga_clock.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 7586.344 ; gain = 0.004 ; free physical = 2632 ; free virtual = 10820
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Sun Oct  9 09:22:35 2022] Launched synth_1...
+Run output will be captured here: /home/zumahun/fpga_projects/vga_clock/vga_clock/vga_clock.runs/synth_1/runme.log
+[Sun Oct  9 09:22:36 2022] Launched impl_1...
+Run output will be captured here: /home/zumahun/fpga_projects/vga_clock/vga_clock/vga_clock.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Sun Oct  9 09:24:46 2022] Launched synth_1...
+Run output will be captured here: /home/zumahun/fpga_projects/vga_clock/vga_clock/vga_clock.runs/synth_1/runme.log
+[Sun Oct  9 09:24:46 2022] Launched impl_1...
+Run output will be captured here: /home/zumahun/fpga_projects/vga_clock/vga_clock/vga_clock.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:10:30
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+ERROR: [Labtools 27-3419] Disconnecting from hw_server since it's not responding to requests.  It is recommended to investigate hw_server to find any issues.
